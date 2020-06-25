@@ -4689,5 +4689,15 @@ input, select, textarea {
 	}
 
 	/* blinking underscore */
+	.blinking{
+		animation: blinkingText 1s infinite;
+	}
+	@keyframes blinkingText{
+		0%{     color: #e46b4a;}
+		49%{    color: #e46b4a;}
+		60%{    color: transparent;}
+		99%{    color:transparent;}
+		100%{   color: #e46b4a;}
+	}
 
 	

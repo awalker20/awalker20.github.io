@@ -2596,6 +2596,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+		
 		}
 
 		.image.left, .image.right {
@@ -2633,9 +2634,10 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 4rem 0;
+			display: flex;
+			margin: 4rem 5rem 4rem 5rem;
 			width: 100%;
+			position: relative;
 		}
 
 			.image.main:first-child {
@@ -2643,7 +2645,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: auto;
+				
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2662,7 +2665,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		a.image img {
+		/* a.image img {
 			-moz-transition: -moz-transform 0.2s ease-out;
 			-webkit-transition: -webkit-transform 0.2s ease-out;
 			-ms-transition: -ms-transform 0.2s ease-out;
@@ -2674,7 +2677,7 @@ input, select, textarea {
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
-		}
+		} */
 
 /* Actions */
 

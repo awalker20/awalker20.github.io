@@ -2634,8 +2634,9 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: flex;
-			margin: 4rem 5rem 4rem 5rem;
+			display: inline-block;
+			margin: 4rem 20rem 4rem 5rem;
+			
 			width: 100%;
 			position: relative;
 		}
@@ -4703,4 +4704,28 @@ input, select, textarea {
 		100%{   color: #e46b4a;}
 	}
 
+/*align project picute and text*/
+.project_container{
+	text-align: justify;
+    width: auto;
+}
+.project_container img{
+	display: block;
+    margin: 0 auto;
+}
+
+
+	/* programming language labels*/
+p.label{
+	border-style: solid;
+	background: rgb(75,81,86);
+	font-family: Merriweather, Georgia, serif;
+	font-size: 10pt;
+	color: white;
+	padding: 0px 10px;
+	border-radius: 5px;
+	border-width: 2px;
+	margin: 0 5px 5px;
+	display: inline-block;
+}
 	

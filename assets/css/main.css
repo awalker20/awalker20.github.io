@@ -4728,4 +4728,13 @@ p.label{
 	margin: 0 5px 5px;
 	display: inline-block;
 }
+
+.image.fit2 {
+	display: grid;
+	place-items: center;
+}
+
+
+
+
 	

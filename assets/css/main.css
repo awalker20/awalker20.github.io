@@ -3315,6 +3315,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 45em;
+		place-items: center;
 	}
 
 		#intro input, #intro select, #intro textarea {
